@@ -11,12 +11,22 @@ const Navbar = () => {
       <h1 className="text-3xl lg:text-4xl font-bold text-slate-100">
         Golden Grillz
       </h1>
-      <ul className="hidden sm:flex justify-center align-center space-x-2 sm:space-x-3 lg:space-x-8 cursor-pointer text-slate-100 font-medium uppercase tracking-widest">
-        <li>Home</li>
-        <li>About</li>
-        <li>Menu</li>
-        <li>Review</li>
-        <li>Order</li>
+      <ul className="hidden sm:flex justify-center align-center space-x-2 sm:space-x-3 lg:space-x-8 text-slate-100 font-medium uppercase tracking-widest">
+        <li className="hover:text-yellow-400 duration-150 cursor-pointer">
+          Home
+        </li>
+        <li className="hover:text-yellow-400 duration-150 cursor-pointer">
+          About
+        </li>
+        <li className="hover:text-yellow-400 duration-150 cursor-pointer">
+          Menu
+        </li>
+        <li className="hover:text-yellow-400 duration-150 cursor-pointer">
+          Review
+        </li>
+        <li className="hover:text-yellow-400 duration-150 cursor-pointer">
+          Order
+        </li>
       </ul>
 
       <div
