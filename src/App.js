@@ -4,7 +4,9 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div>
-      <Navbar />
+      <div className="header">
+        <Navbar />
+      </div>
     </div>
   );
 }

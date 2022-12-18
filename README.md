@@ -1,3 +1,5 @@
+<!-- Image by <a href="https://www.freepik.com/free-photo/top-view-table-full-delicious-food-composition_19672842.htm#page=3&query=food&position=2&from_view=search&track=sph">Freepik</a> -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

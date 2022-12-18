@@ -6,13 +6,12 @@ const Navbar = () => {
   const handleMenu = () => {
     setMenu(!menu);
   };
-
   return (
-    <navbar className="flex justify-between sm:justify-around items-center p-2 max-w-[1240px] mx-auto">
-      <h1 className="text-3xl lg:text-4xl font-bold text-yellow-400">
+    <navbar className="flex justify-between items-center md:justify-around p-4 max-w-[1240px] mx-auto">
+      <h1 className="text-3xl lg:text-4xl font-bold text-slate-100">
         Golden Grillz
       </h1>
-      <ul className="hidden sm:flex space-x-4 cursor-pointer text-yellow-500 font-medium">
+      <ul className="hidden sm:flex justify-center align-center space-x-2 sm:space-x-3 lg:space-x-8 cursor-pointer text-slate-100 font-medium uppercase tracking-widest">
         <li>Home</li>
         <li>About</li>
         <li>Menu</li>
@@ -22,12 +21,12 @@ const Navbar = () => {
 
       <div
         onClick={handleMenu}
-        className="fixed right-2 top-4 sm:hidden cursor-pointer text-yellow-400"
+        className="fixed right-2 top-4 sm:hidden cursor-pointer text-slate-100"
       >
         {!menu ? <MdOutlineMenu size={25} /> : <MdRestaurantMenu size={25} />}
       </div>
 
-      <div className="sm:hidden text-yellow-500 uppercase tracking-wider text-sm">
+      <div className="sm:hidden text-slate-100 uppercase tracking-widest text-sm">
         <ul
           className={
             menu
