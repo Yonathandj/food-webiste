@@ -15,8 +15,8 @@ const Hero = () => {
         </p>
       </div>
       <div className="flex justify-center items-center mt-10">
-        <button className="py-2 px-6 bg-yellow-400 text-slate-100 cursor-pointer rounded-2xl shadow-lg hover:bg-yellow-500 font-bold uppercase tracking-widest duration-150 active:scale-95">
-          Get Started
+        <button className="py-2 px-12 bg-emerald-600 text-slate-100 cursor-pointer rounded-2xl shadow-lg hover:bg-emerald-700 font-semibold tracking-wider duration-150 active:scale-95">
+          See All Menus
         </button>
       </div>
     </div>

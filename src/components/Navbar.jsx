@@ -31,24 +31,38 @@ const Navbar = () => {
 
       <div
         onClick={handleMenu}
-        className="fixed right-2 top-4 sm:hidden cursor-pointer text-slate-100"
+        className="fixed right-2 top-4 sm:hidden cursor-pointer text-slate-100 p-2 rounded-full bg-slate-300"
       >
-        {!menu ? <MdOutlineMenu size={25} /> : <MdRestaurantMenu size={25} />}
+        {!menu ? (
+          <MdOutlineMenu size={25} className="text-emerald-600" />
+        ) : (
+          <MdRestaurantMenu size={25} className="text-emerald-600" />
+        )}
       </div>
 
-      <div className="sm:hidden text-slate-100 uppercase tracking-widest text-sm">
+      <div className="sm:hidden text-slate-100 uppercase tracking-widest text-md">
         <ul
           className={
             menu
-              ? "fixed top-20 left-5 cursor-point font-medium duration-500 ease-out"
-              : "fixed top-20 left-[-100%] cursor-point font-medium duration-500 ease-in"
+              ? "fixed top-32 left-5 cursor-point font-medium duration-500 ease-out"
+              : "fixed top-32 left-[-100%] cursor-point font-medium duration-500 ease-in"
           }
         >
-          <li className="p-2">Home</li>
-          <li className="p-2">About</li>
-          <li className="p-2">Menu</li>
-          <li className="p-2">Review</li>
-          <li className="p-2">Order</li>
+          <li className="p-2 text-yellow-400 border-b-2 border-b-slate-200 font-semibold">
+            Home
+          </li>
+          <li className="p-2 text-yellow-400 border-b-2 border-b-slate-200 font-semibold">
+            About
+          </li>
+          <li className="p-2 text-yellow-400 border-b-2 border-b-slate-200 font-semibold">
+            Menu
+          </li>
+          <li className="p-2 text-yellow-400 border-b-2 border-b-slate-200 font-semibold">
+            Review
+          </li>
+          <li className="p-2 text-yellow-400 border-b-2 border-b-slate-200 font-semibold">
+            Order
+          </li>
         </ul>
       </div>
     </nav>
