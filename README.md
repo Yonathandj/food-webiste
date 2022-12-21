@@ -1,5 +1,10 @@
 Image by <a href="https://www.freepik.com/free-photo/top-view-table-full-delicious-food-composition_19672842.htm#page=3&query=food&position=2&from_view=search&track=sph">Freepik</a>
 
+<a href="https://www.freepik.com/free-photo/delicious-cheeseburger_977897.htm#query=burger&position=2&from_view=search&track=sph">Image by jannoon028</a> on Freepik
+
+
+<a href="https://www.freepik.com/free-photo/crispy-mixed-pizza-with-olives-sausage_6752011.htm#query=pizza&position=9&from_view=search&track=sph">Image by KamranAydinov</a> on Freepik
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -7,7 +7,7 @@ const Navbar = () => {
     setMenu(!menu);
   };
   return (
-    <navbar className="flex justify-between items-center md:justify-around p-4 max-w-[1240px] mx-auto">
+    <nav className="flex justify-between items-center md:justify-around p-4 max-w-[1240px] mx-auto">
       <h1 className="text-3xl lg:text-4xl font-bold text-slate-100">
         Golden Grillz
       </h1>
@@ -51,7 +51,7 @@ const Navbar = () => {
           <li className="p-2">Order</li>
         </ul>
       </div>
-    </navbar>
+    </nav>
   );
 };
 
