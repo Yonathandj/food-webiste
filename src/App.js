@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   const API_KEY = "8a75ac0b051c4f28ae0db38ef9d14b78";
-  const API_URL = "https://api.spoonacular.com/food/menuItems/search";
+  const API_URL = "http://api.spoonacular.com/food/menuItems/search?";
 
   return (
     <div>
@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <Hero />
       </div>
-      <About />
+      <About API_KEY={API_KEY} API_URL={API_URL} />
     </div>
   );
 }
