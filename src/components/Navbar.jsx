@@ -44,23 +44,23 @@ const Navbar = () => {
         <ul
           className={
             menu
-              ? "fixed top-32 left-5 cursor-point font-medium duration-500 ease-out"
-              : "fixed top-32 left-[-100%] cursor-point font-medium duration-500 ease-in"
+              ? "fixed top-32 left-5 cursor-point font-medium duration-500 ease-out w-24"
+              : "fixed top-32 left-[-100%] cursor-point font-medium duration-500 ease-in w-24"
           }
         >
-          <li className="p-2 text-yellow-400 border-b-2 border-b-slate-200 font-semibold">
+          <li className="p-2 text-slate-200 rounded-tl-lg rounded-br-lg bg-emerald-500 text-center border-r font-semibold mt-5">
             Home
           </li>
-          <li className="p-2 text-yellow-400 border-b-2 border-b-slate-200 font-semibold">
+          <li className="p-2 text-slate-200 rounded-tl-lg rounded-br-lg bg-emerald-500 text-center border-r font-semibold mt-5">
             About
           </li>
-          <li className="p-2 text-yellow-400 border-b-2 border-b-slate-200 font-semibold">
+          <li className="p-2 text-slate-200 rounded-tl-lg rounded-br-lg bg-emerald-500 text-center border-r font-semibold mt-5">
             Menu
           </li>
-          <li className="p-2 text-yellow-400 border-b-2 border-b-slate-200 font-semibold">
+          <li className="p-2 text-slate-200 rounded-tl-lg rounded-br-lg bg-emerald-500 text-center border-r font-semibold mt-5">
             Review
           </li>
-          <li className="p-2 text-yellow-400 border-b-2 border-b-slate-200 font-semibold">
+          <li className="p-2 text-slate-200 rounded-tl-lg rounded-br-lg bg-emerald-500 text-center border-r font-semibold mt-5">
             Order
           </li>
         </ul>
