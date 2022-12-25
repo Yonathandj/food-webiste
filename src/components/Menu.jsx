@@ -38,6 +38,11 @@ const Menu = () => {
           />
         </div>
       </div>
+      <div className="flex justify-center mt-5">
+        <button className="py-2 px-8 bg-emerald-600 text-slate-200 cursor-pointer rounded-[4px] shadow-lg hover:bg-emerald-700 font-semibold tracking-wider duration-150 active:scale-95 mb-5">
+          See All Menus
+        </button>
+      </div>
     </div>
   );
 };
