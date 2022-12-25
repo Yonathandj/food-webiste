@@ -1,27 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { MdOutlineFoodBank } from "react-icons/md";
 
-const About = ({ API_URL, API_KEY }) => {
-  const [item, setItem] = useState([]);
-  const [error, setError] = useState(null);
+import steak from "../images/steak.jpg";
 
-  useEffect(() => {
-    const getImage = async () => {
-      try {
-        const response = await fetch(
-          `${API_URL}apiKey=${API_KEY}&query=burger&number=1`
-        );
-        if (!response.ok)
-          throw new Error("Can't access this image, refresh the page");
-        const data = await response.json();
-        setItem(data["menuItems"][0]);
-      } catch (error) {
-        setError(error.message);
-      }
-    };
-    getImage();
-  }, []);
-
+const About = () => {
   return (
     <div className="bg-[#080D16] w-full">
       <div className="p-14 grid md:grid-cols-2 mx-auto gap-5">
@@ -31,10 +13,10 @@ const About = ({ API_URL, API_KEY }) => {
             <MdOutlineFoodBank size={32} className="text-yellow-400" />
           </div>
           <div>
-            <h1 className="text-5xl text-slate-200 capitalize font-bold my-5 text-center md:text-left">
+            <h1 className="text-5xl md:text-6xl text-slate-200 capitalize font-bold my-5 text-center md:text-left">
               The best restaurant in town
             </h1>
-            <p className="text-slate-400 text-xl text-justify">
+            <p className="text-slate-400 text-xl md:text-[22px] text-justify">
               Golden Grillz opened on Thanksgiving Day 1990. Chef / Owner Ron
               Golden began baking pies and selling them to restaurants and his
               neighbors out of a small kitchen at the corner of Hudson and North
@@ -46,18 +28,12 @@ const About = ({ API_URL, API_KEY }) => {
             </button>
           </div>
         </div>
-        <div className="flex justify-center align-center md:block md:my-auto md:mx-auto">
-          {error ? (
-            <p className="text-xl text-red-200 font-semibold text-center p-10 bg-gray-800 rounded-sm">
-              {error}
-            </p>
-          ) : (
-            <img
-              src={item["image"]}
-              alt={item["title"]}
-              className="w-auto rounded-sm"
-            />
-          )}
+        <div className="m-auto h-[27rem] w-auto">
+          <img
+            src={steak}
+            alt="Steak by Chad Montano from Unsplash"
+            className="text-slate-400 rounded-md h-full w-full"
+          />
         </div>
       </div>
     </div>

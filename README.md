@@ -1,9 +1,12 @@
-Image by <a href="https://www.freepik.com/free-photo/top-view-table-full-delicious-food-composition_19672842.htm#page=3&query=food&position=2&from_view=search&track=sph">Freepik</a>
+<!-- ATTRIBUTE TO PHOTO I USE -->
 
-<a href="https://www.freepik.com/free-photo/delicious-cheeseburger_977897.htm#query=burger&position=2&from_view=search&track=sph">Image by jannoon028</a> on Freepik
+Photo by <a href="https://unsplash.com/@rollelflex_graphy726?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">sk</a> on <a href="https://unsplash.com/s/photos/Burger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+Photo by <a href="https://unsplash.com/@briewilly?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chad Montano</a> on <a href="https://unsplash.com/photos/M0lUxgLnlfk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-<a href="https://www.freepik.com/free-photo/crispy-mixed-pizza-with-olives-sausage_6752011.htm#query=pizza&position=9&from_view=search&track=sph">Image by KamranAydinov</a> on Freepik
+Photo by <a href="https://unsplash.com/@islandsandsunsets?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olayinka Babalola</a> on <a href="https://unsplash.com/s/photos/pasta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@v_uk_europe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vitalii Chernopyskyi</a> on <a href="https://unsplash.com/images/food/pizza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 # Getting Started with Create React App
 
