@@ -8,7 +8,7 @@ const FeedbackUser = () => {
     <div className="bg-[#080D16] w-full px-14 py-5 flex justify-center align-center">
       <div className="max-w-[800px] p-5 mx-auto">
         <div>
-          <h2 className="text-2xl text-slate-200 uppercase tracking-wider font-semibold">
+          <h2 className="text-2xl text-slate-200 uppercase tracking-wider font-semibold text-center">
             Send us a feedback
           </h2>
           <SiFeedly size={30} className="text-slate-200 mx-auto mt-2" />
