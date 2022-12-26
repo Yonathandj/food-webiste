@@ -30,11 +30,11 @@ const Review = () => {
               come back here again and again.
             </p>
             <div className="flex items-center pt-2">
-              <AiFillStar size={25} className="text-yellow-400" />
-              <AiFillStar size={25} className="text-yellow-400" />
-              <AiFillStar size={25} className="text-yellow-400" />
-              <AiFillStar size={25} className="text-yellow-400" />
-              <AiFillStar size={25} className="text-yellow-400" />
+              <AiFillStar size={30} className="text-yellow-400" />
+              <AiFillStar size={30} className="text-yellow-400" />
+              <AiFillStar size={30} className="text-yellow-400" />
+              <AiFillStar size={30} className="text-yellow-400" />
+              <AiFillStar size={30} className="text-yellow-400" />
             </div>
           </div>
         </div>
