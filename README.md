@@ -8,6 +8,9 @@ Photo by <a href="https://unsplash.com/@islandsandsunsets?utm_source=unsplash&ut
 
 Photo by <a href="https://unsplash.com/@v_uk_europe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vitalii Chernopyskyi</a> on <a href="https://unsplash.com/images/food/pizza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+Photo by <a href="https://unsplash.com/@juricakoletic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jurica Koletić</a> on <a href="https://unsplash.com/images/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
